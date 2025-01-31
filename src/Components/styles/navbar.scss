@@ -1,0 +1,19 @@
+// There is no implementation of the rule @use for now using React. Check later to move when it is supported
+@import '../../styles/base';
+
+.container-fluid { // Color del fondo del navbar
+    background-color: $primary-color;
+    padding: 1% 8% 1% 8%;
+}
+
+.container-fluid {
+    a {
+        color: white;
+    }
+}
+
+.nav-item {
+    .active {
+    color: white;
+    }
+}
